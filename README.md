@@ -5,13 +5,14 @@ This project leverages HR data to analyze workforce behavior and identify the pr
 To analyze key HR metrics—such as attrition, demographics, salary, and job satisfaction—to understand who is leaving, why they are leaving, and how to improve employee retention. 
 
 ## 🛠️ Tools & Technologies
+
 The analysis and visualization for this project were performed using the following tools:
 
-### Data Cleaning & Manipulation: MS-Excel 
+#### Data Cleaning & Manipulation: MS-Excel 
 
-### Data Merging & Querying: SQL (MySQL) 
+#### Data Merging & Querying: SQL (MySQL) 
 
-### Data Visualization & Dashboards: Power BI and Tableau 
+#### Data Visualization & Dashboards: Power BI and Tableau 
 
 ## 📁 Dataset Overview
 The project uses two Microsoft Excel datasets, HR_1 and HR_2, each containing 50,000 records. 
@@ -20,9 +21,7 @@ HR_1: General attributes (Age, Department, Attrition, Business Travel)
 
 HR_2: Compensation & history (Monthly Income, Over Time, Performance Rating, Total Working Years)
 
-The two files were combined into a single, comprehensive table using a Full Outer Join on the employee Number from HR_1 and Employee ID from HR_2, identifier
-
-columns to unify data fields for KPI calculation. 
+The two files were combined into a single, comprehensive table using a Full Outer Join on the employee Number from HR_1 and Employee ID from HR_2, identifier columns to unify data fields for KPI calculation. 
 
 ## 📈 Key Performance Indicators (KPIs)
 
